@@ -5,6 +5,10 @@
 #include <ctime>
 #include <sstream>
 
+/**
+ * IMPORTANT NOTE: when compiling, we need to introduce the following flag: -pthread.
+ */
+
 using namespace std;
 
 class SharedData {
