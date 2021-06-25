@@ -39,10 +39,6 @@ void print_permutations(string str, string aux_str)
         cout << aux_str << endl;
     }
 
-    /**
-     * @brief We use rotate to 
-     * 
-     */
     for (int i = 0; i < str.length(); i++)
     {
         print_permutations(str.substr(1), aux_str + str[0]);
