@@ -15,9 +15,9 @@ class SharedData {
 private:
     struct shared_data {
         string next_date;
-        int rand_number;
+        int rand_number{};
         string name = "Marc Guzman Albiol";
-        bool is_ready;
+        bool is_ready{};
     };
 
 public:
